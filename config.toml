@@ -18,8 +18,8 @@ googleAnalytics = ""
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "satRday Los Angeles 2019"
-  description = "R conference in [My City]"
-  # email = "your@email.com"
+  description = "R conference in Los Angeles"
+  email = "satrdays.losangeles@gmail.com"
 
   # Link custom assets relative to /static
   custom_css = ["css/satrday.css"]
@@ -100,7 +100,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "Details"
-      description = "Conference Location & Date TBD"
+      description = "April 6, 2019 @ UCLA James West Alumni Center"
       url = "#"
 
     [[params.services.row.list]]
