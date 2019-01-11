@@ -148,22 +148,22 @@ googleAnalytics = ""
       # Supply this string as the value to `eid` above
 
   [params.tickettailor]
-    enable = false
+    enable = true
     title = "Register"
-    bg = false
-    eventviewid = "162430"
+    bg = true
+    eventviewid = "225572"
       # Go to www.tickettailor.com and open your event page
       # Note the number at the end of the url e.g. https://www.tickettailor.com/event/view/id/162430
       # Supply the number ONLY in `eventviewid`
   
   # Call for papers section
   [params.callforpapers]
-    enable = false
-    title = "Call For Papers"
-    bg = false
-    CfSpage = "/test3490"
+    enable = true
+    title = "Call For Presenters"
+    bg = true
+    CfSpage = "/satrday-la-2019"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
-    dates = "09 Aug - 21 Sep 2018"
+    dates = "Jan 01 - Feb 10, 2018"
 
   # Talk [Portfolio] section
   [params.portfolio]
@@ -314,7 +314,7 @@ googleAnalytics = ""
   
   [params.diversity]
     enable = true
-    title = "Diversity"
+    title = "Code of Conduct"
     bg = true
 
   # Contact section
