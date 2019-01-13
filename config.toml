@@ -79,7 +79,7 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = "satRday Los Angeles 2019"
     subtitle = "A conference for users of the R Language"
-    bg = false
+    bg = true
     buttonText = "Tell me more"
 
 
@@ -150,7 +150,7 @@ googleAnalytics = ""
   [params.tickettailor]
     enable = true
     title = "Register"
-    bg = true
+    bg = false
     eventviewid = "225572"
       # Go to www.tickettailor.com and open your event page
       # Note the number at the end of the url e.g. https://www.tickettailor.com/event/view/id/162430
@@ -160,7 +160,7 @@ googleAnalytics = ""
   [params.callforpapers]
     enable = true
     title = "Call For Presenters"
-    bg = true
+    bg = false
     CfSpage = "/satrday-la-2019"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
     dates = "Jan 01 - Feb 10, 2018"
@@ -315,7 +315,7 @@ googleAnalytics = ""
   [params.diversity]
     enable = true
     title = "Code of Conduct"
-    bg = true
+    bg = false
 
   # Contact section
   [params.contact]

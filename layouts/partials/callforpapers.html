@@ -1,0 +1,27 @@
+{{ "<!-- callforpapers -->" | safeHTML }}
+<section id="callforpapers" {{ if .Site.Params.callforpapers.bg }}
+class="bg-light-gray"
+{{ end }}>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.callforpapers.title }}{{ . | markdownify }}{{ end }}</h2>
+      </div>
+    </div>
+    <div>
+        <h3>
+            We are accepting paper submissions through <a href="https://sessionize.com{{ .Site.Params.callforpapers.CfSpage }}">sessionize</a>.   
+        </h3>
+<div>
+<p>
+    Applications are available for both speaking and poster sessions {{ .Site.Params.callforpapers.dates }}. We strongly
+    encourage topics from a variety of disciplines and backgrounds!
+</p>
+<p>
+    NOTE: Speakers should indicate whether they are applying for a Session talk (30-45 minutes) or for a Lightning
+    talk (5 minutes).
+</p>
+</div>
+
+</div>
+</section>
