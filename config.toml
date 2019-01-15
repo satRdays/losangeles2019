@@ -264,6 +264,14 @@ googleAnalytics = ""
 
     [[params.team.members]]
       img = "placeholder.jpg"
+      name = "Douglas Twisselmann"
+      position = "Program Committee"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/douglas-t-97b410/"]
+    ]
+
+    [[params.team.members]]
+      img = "placeholder.jpg"
       name = "Eric Kostello"
       position = "Program Committee"
       social = [
