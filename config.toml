@@ -150,7 +150,7 @@ googleAnalytics = ""
   [params.tickettailor]
     enable = true
     title = "Register"
-    bg = false
+    bg = true
     eventviewid = "225572"
       # Go to www.tickettailor.com and open your event page
       # Note the number at the end of the url e.g. https://www.tickettailor.com/event/view/id/162430
@@ -186,48 +186,44 @@ googleAnalytics = ""
   [params.schedule]
     enable = false
     title = "Schedule"
-    bg = false
+    bg = true
 
   # Important Dates [About] section
   [params.about]
-    enable = false
+    enable = true
     title = "Important Dates"
     subtitle = "Be prepared!"
-    endpoint = "Conference"
+    endpoint = "Apr 6<br>The<br>SatRday"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
-      date = "First Date"
-      title = "Initial Announcement"
-      description = "We're organising a conference!"
+      img = "lalogo.png"
+      date = "Jan 10"
+      title = "Ticket Sale & Call for Presenters Begin"
+      description = "$35 for Professionals, $15 for Students"
 
     [[params.about.events]]
-      img = "2.jpg"
-      date = "Second Date"
-      title = "Early Bird Ticket Sales"
-      description = "Early round of tickets now available at discount"
+      img = "oops.png"
+      date = "Feb 10"
+      title = "Call for Presenters Ends"
+      description = "Don't be this girl, don't be late!"
 
     [[params.about.events]]
-      img = "3.jpg"
-      date = "Third Date"
-      title = "Call For Papers"
-      description = "Submissions for speakers are now open!"
+      img = "astonished.png"
+      date = "Mar 10"
+      title = "Final Talk Schedule"
+      description = "Wow I am so glad I bought tickets early!"
 
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "Fourth Date"
-      title = "Call For Papers Ends"
-      description = "Cut off date for speaker submissions"
+
   
   # Location section
   [params.location]
-    enable = false
-    title = "Location title"
+    enable = true
+    title = "Our Venue at UCLA"
     bg = true
-    iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12770.336629178193!2d174.7680403!3d-36.8524341!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x868a73f26ed3e621!2sDepartment+of+Statistics%2C+University+of+Auckland!5e0!3m2!1sen!2suk!4v1533231461829"
+    iframesrc = "https://maps.google.com/maps?q=ucla%20james%20west%20alumni%20center&t=&z=15&ie=UTF8&iwloc=&output=embed"
 
   # Team section
   [params.team]
