@@ -279,7 +279,7 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "placeholder.jpg"
+      img = "daroczig.jpg"
       name = "Gergely Daróczi"
       position = "Program Committee & SatRdays Founder"
       social = [
