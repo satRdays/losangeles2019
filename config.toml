@@ -318,7 +318,7 @@ googleAnalytics = ""
       ]
 
      [[params.team.members]]
-      img = "placeholder.jpg"
+      img = "pafka.jpg"
       name = "Szilard Pafka"
       position = "Program Committee"
       social = [
