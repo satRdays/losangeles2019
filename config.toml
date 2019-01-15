@@ -227,9 +227,9 @@ googleAnalytics = ""
 
   # Team section
   [params.team]
-    enable = false
+    enable = true
     # Possibility to center items
-    #center = true
+    center = true
     title = "Team"
     subtitle = "The people putting it together"
     bg = false
@@ -241,43 +241,90 @@ googleAnalytics = ""
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 1"
-      position = "Organiser Position 1"
+      img = "amy.png"
+      name = "Amy Tzu-Yu Chen"
+      position = "Organizer"
       reportsTo = ""
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "Role 1 for [thing 1](#)",
-        "Role 2 for [thing 2](#)",
-        "Role 3 for [thing 3](#)"
-      ]
       # For bio markdown and even multiline strings are available.
-      bio = """I do things,
-      and stuff"""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/amy17519"],
+        ["fa-github", "https://github.com/amy17519"],
+        ["fa-linkedin", "http://linkedin.com/in/amy17519/"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 2"
-      position = "Organiser Position 2"
+      img = "placeholder.jpg"
+      name = "Chris Mehrvarzi"
+      position = "Organizer"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/mehrvch"],
+        ["fa-github", "https://github.com/mehrvch"],
+        ["fa-linkedin", "https://www.linkedin.com/in/mehrvch/"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 3"
-      position = "Organiser Position 3"
+      img = "placeholder.jpg"
+      name = "Eric Kostello"
+      position = "Program Committee"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "https://www.linkedin.com/in/erickostello/"]
+      ]
+
+    [[params.team.members]]
+      img = "placeholder.jpg"
+      name = "Gergely Daróczi"
+      position = "Program Committee & SatRdays Founder"
+      social = [
+        ["fa-twitter", "https://twitter.com/daroczig"],
+        ["fa-github", "https://github.com/daroczig"],
+        ["fa-linkedin", "https://www.linkedin.com/in/lindasuen/"]
+     ]
+
+    [[params.team.members]]
+      img = "placeholder.jpg"
+      name = "Linda Suen"
+      position = "Organizer"
+      social = [
+        # ["fa-twitter", "#"],
+        # ["fa-github", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/lindasuen/"]
+      ]
+
+     [[params.team.members]]
+      img = "placeholder.jpg"
+      name = "Neal Fultz"
+      position = "Program Committee"
+      social = [
+        ["fa-github", "https://github.com/nfultz"],
+        ["fa-linkedin", "https://www.linkedin.com/in/nfultz/"],
+        ["fa-envelope", "mailto:nfultz@gmail.com"]
+      ]
+
+     [[params.team.members]]
+      img = "placeholder.jpg"
+      name = "Peter Foley"
+      position = "Program Committee"
+      social = [
+        ["fa-github", "https://github.com/peterfoley"],
+        ["fa-linkedin", "https://www.linkedin.com/in/peter-foley-6600482/"]
+      ]
+
+     [[params.team.members]]
+      img = "placeholder.jpg"
+      name = "Szilard Pafka"
+      position = "Program Committee"
+      social = [
+        ["fa-twitter", "https://twitter.com/DataScienceLA"],
+        ["fa-github", "https://github.com/szilard"],
+        ["fa-linkedin", "https://www.linkedin.com/in/szilard"]
+      ]
+
+     [[params.team.members]]
+      img = "placeholder.jpg"
+      name = "Yasmin Lucero"
+      position = "Program Committee"
+      social = [
+        ["fa-envelope", "yasmin.lucero@gmail.com"]
       ]
 
   # Client section
