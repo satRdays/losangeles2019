@@ -208,7 +208,7 @@ googleAnalytics = ""
       img = "oops.png"
       date = "Feb 10"
       title = "Call for Presenters Ends"
-      description = "Don't be this girl, don't be late!"
+      description = "Don't be late!"
 
     [[params.about.events]]
       img = "astonished.png"
@@ -241,7 +241,7 @@ googleAnalytics = ""
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "amy.png"
+      img = "amy.jpg"
       name = "Amy Tzu-Yu Chen"
       position = "Organizer"
       reportsTo = ""
@@ -253,7 +253,7 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "placeholder.jpg"
+      img = "placeholder.png"
       name = "Chris Mehrvarzi"
       position = "Organizer"
       social = [
@@ -263,7 +263,7 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "placeholder.jpg"
+      img = "doug.png"
       name = "Douglas Twisselmann"
       position = "Program Committee"
       social = [
@@ -271,7 +271,7 @@ googleAnalytics = ""
     ]
 
     [[params.team.members]]
-      img = "placeholder.jpg"
+      img = "placeholder.png"
       name = "Eric Kostello"
       position = "Program Committee"
       social = [
@@ -289,17 +289,15 @@ googleAnalytics = ""
      ]
 
     [[params.team.members]]
-      img = "placeholder.jpg"
+      img = "linda.png"
       name = "Linda Suen"
       position = "Organizer"
       social = [
-        # ["fa-twitter", "#"],
-        # ["fa-github", "#"],
         ["fa-linkedin", "https://www.linkedin.com/in/lindasuen/"]
       ]
 
      [[params.team.members]]
-      img = "placeholder.jpg"
+      img = "neal.png"
       name = "Neal Fultz"
       position = "Program Committee"
       social = [
@@ -309,7 +307,7 @@ googleAnalytics = ""
       ]
 
      [[params.team.members]]
-      img = "placeholder.jpg"
+      img = "placeholder.png"
       name = "Peter Foley"
       position = "Program Committee"
       social = [
@@ -328,7 +326,7 @@ googleAnalytics = ""
       ]
 
      [[params.team.members]]
-      img = "placeholder.jpg"
+      img = "placeholder.png"
       name = "Yasmin Lucero"
       position = "Program Committee"
       social = [

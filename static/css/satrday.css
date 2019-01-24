@@ -113,7 +113,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Helvetica Neue", Helvetica, Arial, cursive;
+    font-family: Roboto, Arial, sans-serif ;
     color: #2165B6;
     text-transform: uppercase;
 }
@@ -161,25 +161,27 @@ ul.social-buttons li a:active {
 
 body {
     webkit-tap-highlight-color: #2165B6;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
 
 /* Font work */
 
-h1,
+
+/*h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: sans-serif, Helvetica, Arial, sans-serif;
 }
 .btn-primary {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: sans-serif, Helvetica, Arial, sans-serif;
 }
 
 .btn-xl {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: sans-serif, Helvetica, Arial, sans-serif;
 }
 
 .navbar-default .nav li a {
@@ -237,7 +239,7 @@ section h3.section-subheading {
 .portfolio-modal .modal-content p.item-intro {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+*/
 
 /* Static pages */
 
@@ -253,7 +255,7 @@ staticheader .intro-text {
 
 staticheader .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -262,7 +264,7 @@ staticheader .intro-text .intro-lead-in {
 staticheader .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -276,7 +278,7 @@ staticheader .intro-text {
 staticheader .intro-text .intro-heading {
     margin-bottom: 50px;
     text-transform: uppercase;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;

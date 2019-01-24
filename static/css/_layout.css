@@ -1,7 +1,11 @@
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 22px;
     background-color: #FFFFFF;
+}
+
+.intro-heading .intro-lead-in {
+    font-size: 58px;
 }
 
 .navbar-default {
