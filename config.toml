@@ -253,7 +253,7 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "placeholder.png"
+      img = "chris.png"
       name = "Chris Mehrvarzi"
       position = "Organizer"
       social = [
