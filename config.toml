@@ -77,8 +77,8 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday Los Angeles 2019"
-    subtitle = "A conference for users of the R Language"
+    title = "SatRday Los Angeles | Apr 6, 2019"
+    subtitle = "A conference for users of R Language"
     bg = true
     buttonText = "Tell me more"
 
@@ -253,7 +253,7 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "chris.png"
+      img = "placeholder.png"
       name = "Chris Mehrvarzi"
       position = "Organizer"
       social = [
