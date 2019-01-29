@@ -167,20 +167,20 @@ googleAnalytics = ""
 
   # Talk [Portfolio] section
   [params.portfolio]
-    enable = false
+    enable = true
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Talks"
-    subtitle = "Who's saying what"
+    title = "Keynote Speakers"
+    subtitle = ""
     bg = true
 
-    [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
+    # [params.portfolio.modal]
+    #   client = "Client"
+    #   date = "Date"
+    #   category = "Category"
+    #   buttonText = "Close project"
 
   # Schedule section
   [params.schedule]
@@ -264,7 +264,7 @@ googleAnalytics = ""
 
     [[params.team.members]]
       img = "doug.png"
-      name = "Douglas Twisselmann"
+      name = "Douglas T."
       position = "Program Committee"
       social = [
         ["fa-linkedin", "https://www.linkedin.com/in/douglas-t-97b410/"]
@@ -281,7 +281,7 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "daroczig.jpg"
       name = "Gergely Daróczi"
-      position = "Program Committee & SatRdays Founder"
+      position = "Program Committee"
       social = [
         ["fa-twitter", "https://twitter.com/daroczig"],
         ["fa-github", "https://github.com/daroczig"],
@@ -337,7 +337,7 @@ googleAnalytics = ""
   [params.clients_list]
     enable = false
     # Possibility to center items
-    #center = true
+    # center = true
     # Optional client title specifying the involvement
     title = "Sponsors"
     bg = true
@@ -364,7 +364,7 @@ googleAnalytics = ""
   [params.diversity]
     enable = true
     title = "Code of Conduct"
-    bg = false
+    bg = true
 
   # Contact section
   [params.contact]
@@ -440,6 +440,11 @@ googleAnalytics = ""
     [[params.footer.social]]
       icon = "fa-github"
       link = "https://github.com/satRdays"
+      title = "GitHub"
+
+    [[params.footer.social]]
+      icon = "fa-envelope"
+      link = "mailto:satrdays.losangeles@gmail.com"
       title = "GitHub"
 
     [[params.footer.quicklinks]]

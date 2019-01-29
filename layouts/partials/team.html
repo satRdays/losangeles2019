@@ -11,14 +11,14 @@ class="bg-light-gray"
     </div>
     <div class="row flexbox{{ if .Site.Params.team.center }} flexbox-center{{ end }}">
       {{ range .Site.Params.team.members }}
-        <div class="col-sm-4 col">
+        <div class="col-sm-2 col">
           <div class="team-member">
             {{ $url := printf "img/team/%s" .img }}
-            <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}">
-            <h3>{{ .name | markdownify }}</h3>
+            <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}" height="200" width="200">
+            <h4>{{ .name | markdownify }}</h4>
 
             {{ with .position }}
-            <h4>{{ . | markdownify }}</h4>
+            <h5>{{ . | markdownify }}</h5>
             {{ end }}
             {{ with .reportsTo }}
             <h5 class="report">Reports to {{ . | markdownify }}</h5>
