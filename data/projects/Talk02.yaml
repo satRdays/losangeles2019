@@ -1,13 +1,19 @@
 # modalID: 1
-title: "More to come..."
+title: "Erin LeDell"
 # subtitle: "ffff"
 # date: 1970-01-01
 # startsAt: 00:00
 # endsAt: 00:01
 # img: norm.jpeg
-preview: placeholder.png
-client: 
-# clientLink: "http://heather.cs.ucdavis.edu/matloff.html"
+preview: erin.png
+client: H2O.ai
+clientLink: "http://stat.berkeley.edu/~ledell"
 # category: Category 1
-description: ""
+description: "[Personal Page](http://stat.berkeley.edu/~ledell) | [Twitter](https://twitter.com/ledell) <br>
+Erin is the Chief Machine Learning Scientist at H2O.ai. Erin has a Ph.D. in Biostatistics with a Designated Emphasis in 
+Computational Science and Engineering from University of California, Berkeley. Her research focuses on automatic machine 
+learning, ensemble machine learning and statistical computing. She also holds a B.S. and M.A. in Mathematics.
+Before joining H2O.ai, she was the Principal Data Scientist at Wise.io (acquired by GE Digital in 2016) and Marvin 
+Mobile Security (acquired by Veracode in 2012), and the founder of DataScientific, Inc.
+"
 talk: true
