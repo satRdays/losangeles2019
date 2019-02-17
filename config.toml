@@ -263,14 +263,6 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "doug.png"
-      name = "Douglas T."
-      position = "Program Committee"
-      social = [
-        ["fa-linkedin", "https://www.linkedin.com/in/douglas-t-97b410/"]
-    ]
-
-    [[params.team.members]]
       img = "placeholder.png"
       name = "Eric Kostello"
       position = "Program Committee"
