@@ -341,6 +341,10 @@ googleAnalytics = ""
       logo = "rstudio.png"
       link = "https://www.rstudio.com"
 
+    [[params.clients]]
+      logo = "ucla-alum.jpg"
+      link = "https://alumni.ucla.edu"
+
   [params.diversity]
     enable = true
     title = "Code of Conduct"
