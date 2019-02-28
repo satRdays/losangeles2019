@@ -338,12 +338,16 @@ googleAnalytics = ""
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = "rstudio.png"
-      link = "https://www.rstudio.com"
-
-    [[params.clients]]
       logo = "ucla-alum.jpg"
       link = "https://alumni.ucla.edu"
+
+    [[params.clients]]
+      logo = "RConsortium_Horizontal.png"
+      link = "https://www.r-consortium.org"
+    
+    [[params.clients]]
+      logo = "rstudio.png"
+      link = "https://www.rstudio.com"
 
   [params.diversity]
     enable = true
