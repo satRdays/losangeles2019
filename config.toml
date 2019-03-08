@@ -348,6 +348,10 @@ googleAnalytics = ""
     [[params.clients]]
       logo = "rstudio.png"
       link = "https://www.rstudio.com"
+    
+    [[params.clients]]
+      logo = "ipsos.png"
+      link = "https://www.ipsos.com/en-us"
 
   [params.diversity]
     enable = true
