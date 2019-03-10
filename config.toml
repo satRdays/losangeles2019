@@ -184,7 +184,7 @@ googleAnalytics = ""
 
   # Schedule section
   [params.schedule]
-    enable = false
+    enable = true
     title = "Schedule"
     bg = true
 
