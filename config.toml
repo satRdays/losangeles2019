@@ -299,12 +299,13 @@ googleAnalytics = ""
       ]
 
      [[params.team.members]]
-      img = "placeholder.png"
+      img = "peter.jpg"
       name = "Peter Foley"
       position = "Program Committee"
       social = [
         ["fa-github", "https://github.com/peterfoley"],
-        ["fa-linkedin", "https://www.linkedin.com/in/peter-foley-6600482/"]
+        ["fa-linkedin", "https://www.linkedin.com/in/peter-foley-6600482/"],
+        ["fa-envelope", "mailto:pwfoley@gmail.com"]
       ]
 
      [[params.team.members]]
@@ -322,7 +323,7 @@ googleAnalytics = ""
       name = "Yasmin Lucero"
       position = "Program Committee"
       social = [
-        ["fa-envelope", "yasmin.lucero@gmail.com"]
+        ["fa-envelope", "mailto:yasmin.lucero@gmail.com"]
       ]
 
   # Client section
