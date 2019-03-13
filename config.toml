@@ -323,7 +323,7 @@ googleAnalytics = ""
       name = "Yasmin Lucero"
       position = "Program Committee"
       social = [
-        ["fa-envelope", "yasmin.lucero@gmail.com"]
+        ["fa-envelope", "mailto:yasmin.lucero@gmail.com"]
       ]
 
   # Client section
