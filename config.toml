@@ -340,10 +340,6 @@ googleAnalytics = ""
     [[params.clients]]
       logo = "ucla-alum.jpg"
       link = "https://alumni.ucla.edu"
-
-    [[params.clients]]
-      logo = "RConsortium_Horizontal.png"
-      link = "https://www.r-consortium.org"
     
     [[params.clients]]
       logo = "rstudio.png"
@@ -353,6 +349,10 @@ googleAnalytics = ""
       logo = "ipsos.svg"
       link = "https://www.ipsos.com/en-us"
 
+    [[params.clients]]
+      logo = "system1.png"
+      link = "https://http://system1.com"
+  
   [params.diversity]
     enable = true
     title = "Code of Conduct"
