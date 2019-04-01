@@ -353,7 +353,11 @@ googleAnalytics = ""
     [[params.clients]]
       logo = "system1.png"
       link = "https://system1.com"
-  
+
+    [[params.clients]]
+      logo = "ucladscenter.svg"
+      link = "https://www.library.ucla.edu/location/data-science-center"
+
   [params.diversity]
     enable = true
     title = "Code of Conduct"
